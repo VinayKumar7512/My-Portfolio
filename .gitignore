@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.pack
+.package.json
+*.tgz
+*.zip
+.package-lock.json
+.tailwind.config.js
+.vite.config.js
