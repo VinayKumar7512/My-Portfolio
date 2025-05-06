@@ -117,6 +117,25 @@ const Contact = ({ theme }) => {
                 <div className={`w-12 h-12 rounded-full flex items-center justify-center mr-4 ${
                   theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'
                 }`}>
+                  <Phone className={theme === 'dark' ? 'text-blue-400' : 'text-blue-600'} />
+                </div>
+                <div>
+                  <h4 className="text-base font-medium">Phone</h4>
+                  <a 
+                    href="tel:+917396153478" 
+                    className={`${
+                      theme === 'dark' ? 'text-gray-400 hover:text-blue-400' : 'text-gray-600 hover:text-blue-600'
+                    } transition-colors duration-300`}
+                  >
+                    +91 7396153478
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-center">
+                <div className={`w-12 h-12 rounded-full flex items-center justify-center mr-4 ${
+                  theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'
+                }`}>
                   <Mail className={theme === 'dark' ? 'text-blue-400' : 'text-blue-600'} />
                 </div>
                 <div>
@@ -334,7 +353,7 @@ const Contact = ({ theme }) => {
               
               {submitStatus === 'success' && (
                 <div className="mt-4 p-3 bg-green-100 border border-green-200 text-green-800 rounded-lg">
-                  Your message has been sent successfully! I'll get back to you soon.
+                  Thank you for your message! Please use the contact information above to get in touch directly.
                 </div>
               )}
             </form>

@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import SkillBar from './SkillBar';
 import useInView from '../hooks/useInView';
 
 const Skills = ({ theme }) => {
@@ -21,41 +20,19 @@ const Skills = ({ theme }) => {
   const skillCategories = [
     {
       name: "Languages",
-      skills: [
-        { name: "Python", level: 90 },
-        { name: "Java", level: 85 },
-        { name: "JavaScript", level: 90 },
-        { name: "SQL", level: 85 },
-        { name: "HTML/CSS", level: 90 }
-      ]
+      skills: ["Python", "Java", "JavaScript", "SQL", "HTML/CSS"]
     },
     {
       name: "Frameworks & Libraries",
-      skills: [
-        { name: "React.js", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Node.js", level: 85 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "Bootstrap", level: 85 }
-      ]
+      skills: ["React.js", "Next.js", "Node.js", "Tailwind CSS", "Bootstrap"]
     },
     {
       name: "Databases & Tools",
-      skills: [
-        { name: "MongoDB", level: 85 },
-        { name: "MySQL", level: 85 },
-        { name: "Git", level: 90 },
-        { name: "Postman", level: 85 }
-      ]
+      skills: ["MongoDB", "MySQL", "Git", "Postman"]
     },
     {
       name: "Core Skills",
-      skills: [
-        { name: "DSA", level: 90 },
-        { name: "OOP", level: 85 },
-        { name: "Database Management", level: 85 },
-        { name: "Problem Solving", level: 90 }
-      ]
+      skills: ["DSA", "OOP", "Database Management", "Problem Solving"]
     }
   ];
 
@@ -63,9 +40,7 @@ const Skills = ({ theme }) => {
     <section 
       id="skills" 
       ref={sectionRef}
-      className={`py-20 ${
-        theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'
-      }`}
+      className={`py-20 ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-white text-gray-900'}`}
     >
       <div className="container mx-auto px-4">
         <h2 
@@ -81,7 +56,7 @@ const Skills = ({ theme }) => {
           ref={categoriesRef}
           className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 opacity-0 -translate-y-6 transition-all duration-700 ease-out delay-200"
         >
-          {skillCategories.map((category, index) => (
+          {skillCategories.map((category) => (
             <div key={category.name} className={`${
               theme === 'dark' 
                 ? 'bg-gray-900 border border-gray-700' 
@@ -94,15 +69,13 @@ const Skills = ({ theme }) => {
                 {category.name}
               </h3>
               
-              <div className="space-y-6">
-                {category.skills.map((skill, skillIndex) => (
-                  <SkillBar 
-                    key={skill.name} 
-                    name={skill.name} 
-                    level={skill.level} 
-                    index={skillIndex}
-                    theme={theme}
-                  />
+              <div className="space-y-4">
+                {category.skills.map((skill) => (
+                  <div key={skill} className={`text-base ${
+                    theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
+                  }`}>
+                    {skill}
+                  </div>
                 ))}
               </div>
             </div>
