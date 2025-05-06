@@ -100,7 +100,7 @@ const Hero = ({ theme }) => {
               <GitHub size={24} />
             </a>
             <a 
-              href="https://linkedin.com/in/vinay-bathula-a835b6285" 
+              href="https://www.linkedin.com/in/vinay-bathula75" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`transform hover:-translate-y-1 hover:text-blue-500 transition-all ${

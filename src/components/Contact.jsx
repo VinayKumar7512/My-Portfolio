@@ -169,7 +169,7 @@ const Contact = ({ theme }) => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com/in/vinay-bathula-a835b6285" 
+                  href="https://www.linkedin.com/in/vinay-bathula75" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300 ${

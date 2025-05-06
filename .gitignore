@@ -32,8 +32,3 @@ Thumbs.db
 
 # Optional: MacOS
 __MACOSX/
-.package.json
-.package-lock.json
-.tailwind.config.js
-.vite.config.js
-.postcss.config.js
