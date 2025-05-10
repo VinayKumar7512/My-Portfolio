@@ -32,7 +32,7 @@ const ProjectCard = ({ project, index, theme, isVisible }) => {
         <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 ${
           theme === 'dark' ? 'bg-gray-900/80' : 'bg-white/80'
         }`}>
-          <a 
+          {/* <a 
             href={project.demoLink} 
             target="_blank"
             rel="noopener noreferrer" 
@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index, theme, isVisible }) => {
             }`}
           >
             Live Demo
-          </a>
+          </a> */ }
           
           <a 
             href={project.codeLink} 
@@ -51,8 +51,8 @@ const ProjectCard = ({ project, index, theme, isVisible }) => {
             rel="noopener noreferrer"
             className={`px-4 py-2 rounded-md font-medium text-sm transform hover:-translate-y-1 transition-all ${
               theme === 'dark' 
-                ? 'bg-gray-700 text-white hover:bg-gray-600' 
-                : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                : 'bg-blue-600 text-white hover:bg-blue-700'
             }`}
           >
             View Code
