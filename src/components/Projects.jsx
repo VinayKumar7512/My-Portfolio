@@ -23,7 +23,7 @@ const Projects = ({ theme }) => {
         image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         tags: ["React", "Node.js", "MongoDB", "Express"],
         demoLink: "#",
-        codeLink: "https://github.com/VinayKumar7512",
+        codeLink: "https://github.com/VinayKumar7512/TaskManager",
       },
       {
         id: 2,
@@ -32,7 +32,7 @@ const Projects = ({ theme }) => {
         image: "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         tags: ["Python", "Machine Learning", "Pandas", "Seaborn"],
         demoLink: "#",
-        codeLink: "https://github.com/VinayKumar7512",
+        codeLink: "https://github.com/VinayKumar7512/House-Price-Predictions",
       },
       {
         id: 3,
@@ -41,7 +41,7 @@ const Projects = ({ theme }) => {
         image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         tags: ["Python", "Tkinter", "GUI", "Algorithms"],
         demoLink: "#",
-        codeLink: "https://github.com/VinayKumar7512",
+        codeLink: "https://github.com/VinayKumar7512/Process-Scheduling-GUI",
       },
       {
         id: 4,
@@ -50,7 +50,7 @@ const Projects = ({ theme }) => {
         image: "https://images.pexels.com/photos/934064/pexels-photo-934064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         tags: ["React", "Tailwind CSS", "API", "JavaScript"],
         demoLink: "#",
-        codeLink: "https://github.com/VinayKumar7512",
+        codeLink: "https://github.com/VinayKumar7512/E-Commerce-React",
       },
       {
         id: 5,
@@ -68,7 +68,7 @@ const Projects = ({ theme }) => {
         image: "https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         tags: ["Python", "Terminal", "Game Development"],
         demoLink: "#",
-        codeLink: "https://github.com/VinayKumar7512",
+        codeLink: "https://github.com/VinayKumar7512/Hangman-Game",
       }
     ];
     
