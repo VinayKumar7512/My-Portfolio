@@ -20,11 +20,11 @@ const Skills = ({ theme }) => {
   const skillCategories = [
     {
       name: "Languages",
-      skills: ["Python", "Java", "JavaScript", "SQL", "HTML/CSS"]
+      skills: ["Java", "Python", "JavaScript", "SQL", "HTML/CSS"]
     },
     {
       name: "Frameworks & Libraries",
-      skills: ["React.js", "Next.js", "Node.js", "Tailwind CSS", "Bootstrap"]
+      skills: ["React.js", "Express.js", "Node.js", "Tailwind CSS", "Bootstrap"]
     },
     {
       name: "Databases & Tools",

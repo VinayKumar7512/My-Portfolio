@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-
 const ProjectCard = ({ project, index, theme, isVisible }) => {
   const cardRef = useRef(null);
   

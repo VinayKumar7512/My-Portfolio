@@ -12,7 +12,7 @@ function App() {
   const { theme, toggleTheme } = useTheme();
   
   return (
-    <div className={`font-sans antialiased ${theme === 'dark' ? 'dark' : ''}`}>
+    <div className={`font-sans antialiased overflow-x-hidden ${theme === 'dark' ? 'dark' : ''}`}>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero theme={theme} />
