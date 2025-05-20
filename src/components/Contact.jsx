@@ -247,7 +247,7 @@ const Contact = ({ theme }) => {
                       ? 'bg-gray-900 border border-gray-700 text-white focus:ring-blue-500' 
                       : 'bg-white border border-gray-300 text-gray-900 focus:ring-blue-400'
                   }`}
-                  placeholder="John Doe"
+                  placeholder="Name"
                 />
               </div>
               
@@ -272,7 +272,7 @@ const Contact = ({ theme }) => {
                       ? 'bg-gray-900 border border-gray-700 text-white focus:ring-blue-500' 
                       : 'bg-white border border-gray-300 text-gray-900 focus:ring-blue-400'
                   }`}
-                  placeholder="john@example.com"
+                  placeholder="example@gmail.com"
                 />
               </div>
               
