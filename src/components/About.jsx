@@ -93,7 +93,7 @@ const About = ({ theme }) => {
                   : 'bg-gradient-to-t from-white to-transparent'
               }`}>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'React.js', 'Node.js', 'Java', 'DSA'].map((skill) => (
+                  {['MERN Stack', 'Java', 'DSA', 'Machine Learning'].map((skill) => (
                     <span 
                       key={skill}
                       className={`px-3 py-1 rounded-full text-sm ${
