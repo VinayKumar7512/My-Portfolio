@@ -183,42 +183,6 @@ const Contact = ({ theme }) => {
                 </a>
               </div>
             </div>
-            
-            <div className="mt-12">
-              <h4 className="text-lg font-medium mb-4">Certifications</h4>
-              <div className="space-y-4">
-                <a 
-                  href="https://drive.google.com/file/d/1hsFgsly8AXf81rBME1sKp8Nfv8XcbMX9/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`block hover:underline ${
-                    theme === 'dark' ? 'text-gray-400 hover:text-blue-400' : 'text-gray-600 hover:text-blue-600'
-                  }`}
-                >
-                  AICTE Full Stack Development Virtual Internship
-                </a>
-                <a 
-                  href="https://drive.google.com/file/d/10IYvD53SlbYpQPYjAyvGYAH0gQ-Ar6u1/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`block hover:underline ${
-                    theme === 'dark' ? 'text-gray-400 hover:text-blue-400' : 'text-gray-600 hover:text-blue-600'
-                  }`}
-                >
-                  Introduction to Generative AI (Microsoft Learn)
-                </a>
-                <a 
-                  href="https://drive.google.com/file/d/1hENFJmps5WB4JTFT5AQKTowg7T_jMrIv/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`block hover:underline ${
-                    theme === 'dark' ? 'text-gray-400 hover:text-blue-400' : 'text-gray-600 hover:text-blue-600'
-                  }`}
-                >
-                  English Communication Skills (Pearson MePro)
-                </a>
-              </div>
-            </div>
           </div>
           
           <div 
