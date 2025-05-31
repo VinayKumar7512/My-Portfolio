@@ -81,7 +81,7 @@ const About = ({ theme }) => {
             }`}>
               <div className="aspect-[4/3] bg-gray-200">
                 <img 
-                  src="https://images.pexels.com/photos/7376/startup-photos.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="https://media.istockphoto.com/id/1347677777/photo/closeup-of-computer-programming-typing-on-laptop.jpg?s=612x612&w=0&k=20&c=CQfaT5DqipgDAGzp2tRFXhAhV765dYBr8AvF_ckY3Vs=" 
                   alt="Professional workspace" 
                   className="w-full h-full object-cover"
                 />

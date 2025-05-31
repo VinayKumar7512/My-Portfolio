@@ -31,18 +31,20 @@ const ProjectCard = ({ project, index, theme, isVisible }) => {
         <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 ${
           theme === 'dark' ? 'bg-gray-900/80' : 'bg-white/80'
         }`}>
-          {/* <a 
-            href={project.demoLink} 
-            target="_blank"
-            rel="noopener noreferrer" 
-            className={`px-4 py-2 rounded-md font-medium text-sm transform hover:-translate-y-1 transition-all ${
-              theme === 'dark' 
-                ? 'bg-blue-600 text-white hover:bg-blue-700' 
-                : 'bg-blue-600 text-white hover:bg-blue-700'
-            }`}
-          >
-            Live Demo
-          </a> */ }
+          {project.title === "Medical Assistance Chatbot" && (
+            <a 
+              href={project.demoLink} 
+              target="_blank"
+              rel="noopener noreferrer" 
+              className={`px-4 py-2 rounded-md font-medium text-sm transform hover:-translate-y-1 transition-all ${
+                theme === 'dark' 
+                  ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                  : 'bg-blue-600 text-white hover:bg-blue-700'
+              }`}
+            >
+              Live Demo
+            </a>
+          )}
           
           <a 
             href={project.codeLink} 
