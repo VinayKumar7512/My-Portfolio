@@ -18,6 +18,15 @@ const Projects = ({ theme }) => {
     const projectData = [
       {
         id: 1,
+        title: "Voice Assistant Chatbot",
+        description: "A browser-based voice chatbot powered by Speech-to-Text (STT) and Text-to-Speech (TTS) APIs, integrated with Groq’s ultra-fast LLaMA models for intelligent, real-time conversational responses using web sockets.",
+        image: "https://thumbs.dreamstime.com/b/woman-using-voice-assistant-smartphone-ai-chatbot-interface-microphone-icon-digital-background-conceptual-396666775.jpg",
+        tags: ["Full Stack", "AI Voice Chatbot", "WebSocket", "Groq Llama", "STT/TTS"],
+        demoLink: "https://voice-assistance-chatbot-git-main-vinays-projects-ea533a8b.vercel.app/",
+        codeLink: "https://github.com/VinayKumar7512/Voice-Assistant-Chatbot",
+      },
+      {
+        id: 2,
         title: "Task Manager MERN Stack",
         description: "A comprehensive task management application with features for task organization, analytics, progress tracking, and priority management. Built with MERN stack.",
         image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -26,7 +35,7 @@ const Projects = ({ theme }) => {
         codeLink: "https://github.com/VinayKumar7512/TaskManager",
       },
       {
-        id: 2,
+        id: 3,
         title: "Medical Assistance Chatbot",
         description: "An ML-based Medical Assistance Chatbot that provides users with preliminary health information based on symptoms and suggests required medicines for cure.",
         image: "https://thumbs.dreamstime.com/b/ai-chatbots-patient-triage-chatbot-assisting-353647134.jpg",
@@ -35,16 +44,16 @@ const Projects = ({ theme }) => {
         codeLink: "https://github.com/VinayKumar7512/Medical-Assistance-Chatbot",
       },
       {
-        id: 3,
+        id: 4,
         title: "CPU Scheduling GUI",
         description: "Python-based GUI application simulating various CPU scheduling algorithms including FCFS, SRTF, Priority, and Round Robin with Gantt charts.",
-        image: "https://lightwallpapers.com/downloads/processor-wallpaper-4k-Wallpapers/39.6c3153d217ba3b6b73ffa7e8a63955ad.jpg",
+        image: "https://miro.medium.com/v2/1*s6Y_KtTgTnlf4yBZr5tfQA.jpeg",
         tags: ["Python", "Tkinter", "GUI", "Algorithms"],
         demoLink: "#",
         codeLink: "https://github.com/VinayKumar7512/Process-Scheduling-GUI",
       },
       {
-        id: 4,
+        id: 5,
         title: "E-Commerce Application",
         description: "Responsive e-commerce application with product listings, cart management, and API integration. Built with React and Tailwind CSS.",
         image: "https://img.freepik.com/premium-photo/product-package-boxes-shopping-bag-cart-with-laptop-online-shopping-delivery-concept_38716-138.jpg?semt=ais_hybrid&w=740",
@@ -53,7 +62,7 @@ const Projects = ({ theme }) => {
         codeLink: "https://github.com/VinayKumar7512/E-Commerce-React",
       },
       {
-        id: 5,
+        id: 6,
         title: "Interactive Browser Games",
         description: "Collection of browser games including Rock-Paper-Scissors & Tic-Tac-Toe with AI opponent logic and dynamic UI updates.",
         image: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -62,13 +71,22 @@ const Projects = ({ theme }) => {
         codeLink: "https://github.com/VinayKumar7512",
       },
       {
-        id: 6,
+        id: 7,
         title: "Hangman Game",
         description: "Terminal-based Hangman game implemented in Python with random word selection, string manipulation, and visual status display.",
         image: "https://t4.ftcdn.net/jpg/05/11/07/13/360_F_511071324_M9zRvlGjGSsYCbEGIYgWOvhZ5A9xzAU6.jpg",
         tags: ["Python", "Terminal", "Game Development"],
         demoLink: "#",
         codeLink: "https://github.com/VinayKumar7512/Hangman-Game",
+      },
+      {
+        id: 8,
+        title: "Text-to-Speech Web Application",
+        description: "A full-stack web application that converts user-input text into natural-sounding speech using the Google Cloud Text-to-Speech API. The platform supports 100+ languages.",
+        image: "https://images.ctfassets.net/y769453lpkt4/47doSFP2bhd6oWYwffTpIr/58f5f8c551d26863be59723f2a34d569/62b264ced6e2c5184b2ce2d4_The_8_Best_TTS_Voice_Providers.jpg",
+        tags: ["Full Stack", "Google TTS API", "Node.js"],
+        demoLink: "https://tts-git-main-vinays-projects-ea533a8b.vercel.app/",
+        codeLink: "https://github.com/VinayKumar7512/TTS",
       }
     ];
     
