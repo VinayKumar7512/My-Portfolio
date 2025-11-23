@@ -80,8 +80,13 @@ const About = ({ theme }) => {
               theme === 'dark' ? 'shadow-blue-500/10' : 'shadow-blue-500/20'
             }`}>
               <div className="aspect-[4/3] bg-gray-200">
+                {/* <img 
+                  src="https://images.stockcake.com/public/b/a/4/ba4fe7eb-db24-4273-8a5e-6021eab38681_large/coding-on-laptop-stockcake.jpg"
+                  alt="Professional workspace" 
+                  className="w-full h-full object-cover"
+                /> */}
                 <img 
-                  src="https://images.stockcake.com/public/b/a/4/ba4fe7eb-db24-4273-8a5e-6021eab38681_large/coding-on-laptop-stockcake.jpg" 
+                  src="/assets/My_Picture.jpg"
                   alt="Professional workspace" 
                   className="w-full h-full object-cover"
                 />
