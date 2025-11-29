@@ -86,7 +86,7 @@ const About = ({ theme }) => {
                   className="w-full h-full object-cover"
                 /> */}
                 <img 
-                  src="/assets/My_Picture.jpg"
+                  src="/My_Picture.jpg"
                   alt="Professional workspace" 
                   className="w-full h-full object-cover"
                 />
